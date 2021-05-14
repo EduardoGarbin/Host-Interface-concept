@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+}
+html,body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.menu-container {
+    /* position: static; */
+    width: 100vw;    
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(24, 26, 27);
+    z-index: 50;
+    -webkit-box-shadow: -3px 17px 22px -7px rgba(0,0,0,0.62); 
+box-shadow: -3px 17px 22px -7px rgba(0,0,0,0.62);
+
+}
+        
+.logo-container {
+    height: 50%;
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fcba03;
+    margin: 0px;
+    font-family: 'Georgia', 'serif';
+    padding-left: 12%;
+}
+
+.imagem-container {
+    height: 130%;
+    margin-right: 6%;
+}
+.container {
+    width: 100%;
+    font-family: 'Opens Sans', 'Helvetica Neue';
+    padding: 0;
+    font-family: 'Arial';
+    background-color: rgb(24, 26, 27);
+    color: #39393;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.status { 
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5%;
+    padding-bottom: 2.5%;
+    background-color: #252626;
+    /* -webkit-box-shadow: inset 0px 6px 15px -8px rgba(0,0,0,0.44); 
+    box-shadow: inset 0px 6px 15px -8px rgba(0,0,0,0.44); */
+}
+.info {
+    font-family: 'Arial';
+    color: #25c0db;
+    text-align: center;
+}
+
+.complemento-info{
+    color: rgb(200, 195, 188);
+    font-size: 19.5px;
+    text-align: center;
+}
+
+.aviso {
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    background-color: #009900;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.funcionalidades {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border: solid 1px #736b5e;
+    border-radius: 4px;
+    background-color: #222424;
+    height: 45px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.items-funcionalidades {
+    font-size: 17px;
+    padding: 0px 15px;
+    color: rgb(200, 195, 188);
+}
+
+.tabela-funcionalidades {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #736b5e;
+    border-left: solid 1px #736b5e;
+    border-right: solid 1px #736b5e;
+}
+.mini-items-funcionalidades {
+    font-size: 15.5px;
+    padding: 0px 15px;
+    color: rgb(200, 195, 188);
+}
+
+.incidentes {
+    font-size: 32px;
+    margin-top: 4%;
+    font-family: 'Arial';
+    color: #d3dbd5;
+}
+
+.data-incidentes {
+    font-size: 19px;
+    margin-top: 3%;
+    font-family: 'Arial';
+    color: #d3dbd5;
+}
+
+.items-incidentes {
+    margin-top: 3%;
+    border: solid 1px #736b5e;
+    font-size: 17px;
+    font-family: 'Arial';
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    color: #d3dbd5;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 73.5%;
+    margin-top: 2%;
+}
+.container-3 {
+    margin-top: 2.7%;
+}
+
+.semana-anterior {
+    margin-top: 4%;
+    border: solid 1px #d5dfed;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-family: 'Arial';
+    font-size: 15.5px;
+    width: 175px;
+    color: #736b5e;
+}
+
+.semana-anterior img {
+    height: 21px;
+    width: 21px;
+}
+
+.semana-anterior a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #25c0db;
+}
+
+
+.direitos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2vw;
+    background-color: #1196ad;
+    color: white;
+    font-family: 'Opens Sans', 'Helvetica Neue';
+    justify-content: space-around;
+    height: 83.5px;
+    margin-top: 2%;
+    font-size: 17px;
+    width: 100%;
+}
+.hostbird {
+    display: flex;
+}
+.ajuda {
+    display: flex;
+    align-items: center;
+}
+.canalajuda {
+    padding-right: 15px;
+}
+.separar {
+    padding-right: 15px;
+}
+
+.canalajuda a {
+    color: white;
+    text-decoration: none;
+}
+
+.videotutorial a {
+    color: white;
+    text-decoration: none;
+}
+
+ @media (max-width:500px) {
+    .container-2 {
+        width: 90%;
+    }
+    .incidentes {
+        font-size: 25px;
+    }
+} 
